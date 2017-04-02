@@ -12,6 +12,8 @@
 		DE544E0C1E91377F00246DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE544E0A1E91377F00246DC4 /* Main.storyboard */; };
 		DE544E0E1E91377F00246DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE544E0D1E91377F00246DC4 /* Assets.xcassets */; };
 		DE544E111E91377F00246DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE544E0F1E91377F00246DC4 /* LaunchScreen.storyboard */; };
+		DE544E191E913C3000246DC4 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE544E181E913C3000246DC4 /* SecondTableViewController.swift */; };
+		DE544E1B1E91422E00246DC4 /* SecondTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE544E1A1E91422E00246DC4 /* SecondTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DE544E0D1E91377F00246DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE544E101E91377F00246DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE544E121E91377F00246DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE544E181E913C3000246DC4 /* SecondTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+		DE544E1A1E91422E00246DC4 /* SecondTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				DE544E061E91377F00246DC4 /* AppDelegate.swift */,
 				DE544E081E91377F00246DC4 /* FirstTableViewController.swift */,
+				DE544E181E913C3000246DC4 /* SecondTableViewController.swift */,
+				DE544E1A1E91422E00246DC4 /* SecondTable.swift */,
 				DE544E0A1E91377F00246DC4 /* Main.storyboard */,
 				DE544E0D1E91377F00246DC4 /* Assets.xcassets */,
 				DE544E0F1E91377F00246DC4 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE544E1B1E91422E00246DC4 /* SecondTable.swift in Sources */,
 				DE544E091E91377F00246DC4 /* FirstTableViewController.swift in Sources */,
+				DE544E191E913C3000246DC4 /* SecondTableViewController.swift in Sources */,
 				DE544E071E91377F00246DC4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

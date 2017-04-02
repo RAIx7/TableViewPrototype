@@ -41,16 +41,16 @@
             </objects>
             <point key="canvasLocation" x="816" y="113"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Second Table View Controller-->
         <scene sceneID="9H9-qh-ReH">
             <objects>
-                <tableViewController id="gMd-Fx-bsQ" sceneMemberID="viewController">
+                <tableViewController id="gMd-Fx-bsQ" customClass="SecondTableViewController" customModule="PassingBetweenTableViewss" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="C6F-hZ-kjF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="8mc-a4-Hz1">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellTwo" id="8mc-a4-Hz1">
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8mc-a4-Hz1" id="dpX-Kv-8NI">

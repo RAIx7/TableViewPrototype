@@ -11,11 +11,13 @@ import UIKit
 class FirstTableViewController: UITableViewController {
     
     var colorsArray = [String]()
+    var secondColorsArray = [SecondTable]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         colorsArray = ["Blue","Red","Yellow","Green"]
+        secondColorsArray = [SecondTable(subColor: ["BlueOne","BlueTwo","BlueThree"]), SecondTable(subColor: ["RedOne","RedTwo","RedThree"]), SecondTable(subColor: ["YellowOne","YellowTwo","YellowThree"]), SecondTable(subColor: ["GreenOne","GreenTwo","GreenThree"])]
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,6 +37,19 @@ class FirstTableViewController: UITableViewController {
         return cell
 
 
+    }
+    
+   
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        var indexPath : IndexPath = self.tableView.indexPathForSelectedRow!
+        var destinationViewController = segue.destination as! SecondTableViewController
+        var secondColorsTableArray : SecondTable
+        
+        secondColorsTableArray = secondColorsArray[indexPath.row]
+        destinationViewController.secondArray = secondColorsTableArray.subColor
+        
+        
     }
 
 }
