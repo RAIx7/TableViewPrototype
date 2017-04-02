@@ -14,6 +14,20 @@
 		DE544E111E91377F00246DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE544E0F1E91377F00246DC4 /* LaunchScreen.storyboard */; };
 		DE544E191E913C3000246DC4 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE544E181E913C3000246DC4 /* SecondTableViewController.swift */; };
 		DE544E1B1E91422E00246DC4 /* SecondTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE544E1A1E91422E00246DC4 /* SecondTable.swift */; };
+		DE544E1D1E91560500246DC4 /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE544E1C1E91560500246DC4 /* DestinationViewController.swift */; };
+		DE544E271E9158B800246DC4 /* BlueOne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE544E1E1E9158B800246DC4 /* BlueOne.jpg */; };
+		DE544E281E9158B800246DC4 /* BlueThree.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE544E1F1E9158B800246DC4 /* BlueThree.jpg */; };
+		DE544E291E9158B800246DC4 /* BlueTwo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE544E201E9158B800246DC4 /* BlueTwo.jpg */; };
+		DE544E2A1E9158B800246DC4 /* GreenThree.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE544E211E9158B800246DC4 /* GreenThree.jpg */; };
+		DE544E2B1E9158B800246DC4 /* GreenTwo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE544E221E9158B800246DC4 /* GreenTwo.jpg */; };
+		DE544E2C1E9158B800246DC4 /* RedThree.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE544E231E9158B800246DC4 /* RedThree.jpg */; };
+		DE544E2D1E9158B800246DC4 /* RedTwo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE544E241E9158B800246DC4 /* RedTwo.jpg */; };
+		DE544E2E1E9158B800246DC4 /* YellowThree.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE544E251E9158B800246DC4 /* YellowThree.jpg */; };
+		DE544E2F1E9158B800246DC4 /* YellowTwo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE544E261E9158B800246DC4 /* YellowTwo.jpg */; };
+		DE544E331E9158BF00246DC4 /* Yellow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE544E301E9158BF00246DC4 /* Yellow.jpg */; };
+		DE544E341E9158BF00246DC4 /* Red.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE544E311E9158BF00246DC4 /* Red.jpg */; };
+		DE544E351E9158BF00246DC4 /* Green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE544E321E9158BF00246DC4 /* Green.jpg */; };
+		DE544E371E9161E800246DC4 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE544E361E9161E800246DC4 /* ThirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +40,20 @@
 		DE544E121E91377F00246DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE544E181E913C3000246DC4 /* SecondTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
 		DE544E1A1E91422E00246DC4 /* SecondTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTable.swift; sourceTree = "<group>"; };
+		DE544E1C1E91560500246DC4 /* DestinationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
+		DE544E1E1E9158B800246DC4 /* BlueOne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BlueOne.jpg; sourceTree = "<group>"; };
+		DE544E1F1E9158B800246DC4 /* BlueThree.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BlueThree.jpg; sourceTree = "<group>"; };
+		DE544E201E9158B800246DC4 /* BlueTwo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BlueTwo.jpg; sourceTree = "<group>"; };
+		DE544E211E9158B800246DC4 /* GreenThree.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GreenThree.jpg; sourceTree = "<group>"; };
+		DE544E221E9158B800246DC4 /* GreenTwo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GreenTwo.jpg; sourceTree = "<group>"; };
+		DE544E231E9158B800246DC4 /* RedThree.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedThree.jpg; sourceTree = "<group>"; };
+		DE544E241E9158B800246DC4 /* RedTwo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedTwo.jpg; sourceTree = "<group>"; };
+		DE544E251E9158B800246DC4 /* YellowThree.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = YellowThree.jpg; sourceTree = "<group>"; };
+		DE544E261E9158B800246DC4 /* YellowTwo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = YellowTwo.jpg; sourceTree = "<group>"; };
+		DE544E301E9158BF00246DC4 /* Yellow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yellow.jpg; sourceTree = "<group>"; };
+		DE544E311E9158BF00246DC4 /* Red.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Red.jpg; sourceTree = "<group>"; };
+		DE544E321E9158BF00246DC4 /* Green.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Green.jpg; sourceTree = "<group>"; };
+		DE544E361E9161E800246DC4 /* ThirdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +89,25 @@
 				DE544E061E91377F00246DC4 /* AppDelegate.swift */,
 				DE544E081E91377F00246DC4 /* FirstTableViewController.swift */,
 				DE544E181E913C3000246DC4 /* SecondTableViewController.swift */,
+				DE544E1C1E91560500246DC4 /* DestinationViewController.swift */,
+				DE544E361E9161E800246DC4 /* ThirdView.swift */,
 				DE544E1A1E91422E00246DC4 /* SecondTable.swift */,
 				DE544E0A1E91377F00246DC4 /* Main.storyboard */,
 				DE544E0D1E91377F00246DC4 /* Assets.xcassets */,
 				DE544E0F1E91377F00246DC4 /* LaunchScreen.storyboard */,
 				DE544E121E91377F00246DC4 /* Info.plist */,
+				DE544E1E1E9158B800246DC4 /* BlueOne.jpg */,
+				DE544E1F1E9158B800246DC4 /* BlueThree.jpg */,
+				DE544E201E9158B800246DC4 /* BlueTwo.jpg */,
+				DE544E211E9158B800246DC4 /* GreenThree.jpg */,
+				DE544E221E9158B800246DC4 /* GreenTwo.jpg */,
+				DE544E231E9158B800246DC4 /* RedThree.jpg */,
+				DE544E241E9158B800246DC4 /* RedTwo.jpg */,
+				DE544E251E9158B800246DC4 /* YellowThree.jpg */,
+				DE544E261E9158B800246DC4 /* YellowTwo.jpg */,
+				DE544E301E9158BF00246DC4 /* Yellow.jpg */,
+				DE544E311E9158BF00246DC4 /* Red.jpg */,
+				DE544E321E9158BF00246DC4 /* Green.jpg */,
 			);
 			path = PassingBetweenTableViewss;
 			sourceTree = "<group>";
@@ -129,9 +171,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE544E271E9158B800246DC4 /* BlueOne.jpg in Resources */,
 				DE544E111E91377F00246DC4 /* LaunchScreen.storyboard in Resources */,
+				DE544E291E9158B800246DC4 /* BlueTwo.jpg in Resources */,
+				DE544E2C1E9158B800246DC4 /* RedThree.jpg in Resources */,
+				DE544E351E9158BF00246DC4 /* Green.jpg in Resources */,
+				DE544E281E9158B800246DC4 /* BlueThree.jpg in Resources */,
+				DE544E2E1E9158B800246DC4 /* YellowThree.jpg in Resources */,
 				DE544E0E1E91377F00246DC4 /* Assets.xcassets in Resources */,
+				DE544E2A1E9158B800246DC4 /* GreenThree.jpg in Resources */,
+				DE544E2B1E9158B800246DC4 /* GreenTwo.jpg in Resources */,
+				DE544E331E9158BF00246DC4 /* Yellow.jpg in Resources */,
+				DE544E2D1E9158B800246DC4 /* RedTwo.jpg in Resources */,
+				DE544E2F1E9158B800246DC4 /* YellowTwo.jpg in Resources */,
 				DE544E0C1E91377F00246DC4 /* Main.storyboard in Resources */,
+				DE544E341E9158BF00246DC4 /* Red.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +200,8 @@
 				DE544E091E91377F00246DC4 /* FirstTableViewController.swift in Sources */,
 				DE544E191E913C3000246DC4 /* SecondTableViewController.swift in Sources */,
 				DE544E071E91377F00246DC4 /* AppDelegate.swift in Sources */,
+				DE544E371E9161E800246DC4 /* ThirdView.swift in Sources */,
+				DE544E1D1E91560500246DC4 /* DestinationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

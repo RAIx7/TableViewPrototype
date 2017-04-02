@@ -13,6 +13,7 @@ class SecondTableViewController: UITableViewController {
    
     
     var secondArray = [String]()
+    var thirdArray = [UIImage]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,7 +32,14 @@ class SecondTableViewController: UITableViewController {
         return cell
     }
     
-    
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        var indexPath : IndexPath = self.tableView.indexPathForSelectedRow!
+
+        
+        var destinationViewController = segue.destination as! DestinationViewController
+            destinationViewController.colorImage = thirdArray[indexPath.row]
+
+    }
     
 }

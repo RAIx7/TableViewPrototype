@@ -58,7 +58,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="sXu-ne-QaE" kind="show" id="a9W-yf-J5a"/>
+                                    <segue destination="sXu-ne-QaE" kind="show" identifier="" id="a9W-yf-J5a"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -72,10 +72,10 @@
             </objects>
             <point key="canvasLocation" x="1706" y="112"/>
         </scene>
-        <!--View Controller-->
+        <!--Destination View Controller-->
         <scene sceneID="0xY-Nw-he8">
             <objects>
-                <viewController id="sXu-ne-QaE" sceneMemberID="viewController">
+                <viewController id="sXu-ne-QaE" customClass="DestinationViewController" customModule="PassingBetweenTableViewss" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EHV-Qr-IFJ"/>
                         <viewControllerLayoutGuide type="bottom" id="QnT-mc-feh"/>
@@ -83,8 +83,17 @@
                     <view key="view" contentMode="scaleToFill" id="C7L-oC-cRy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ds-Xb-3Q5">
+                                <rect key="frame" x="40" y="164" width="240" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="colorImageView" destination="6ds-Xb-3Q5" id="Gb5-Jd-lWo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e0e-6s-USK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

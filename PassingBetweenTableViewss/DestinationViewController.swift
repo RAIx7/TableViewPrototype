@@ -9,11 +9,17 @@
 import UIKit
 
 class DestinationViewController: UIViewController {
-
+    
+    @IBOutlet weak var colorImageView: UIImageView!
+    
+    var colorImage = UIImage()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        self.colorImageView.image = colorImage
     }
 
     override func didReceiveMemoryWarning() {
